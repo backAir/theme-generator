@@ -9,18 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "theme-generator" is now active!');
-
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('theme-generator.helloWorld', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from Theme generator!');
-	});
-	context.subscriptions.push(disposable);
-
+	console.log('Congratulations, your extension "theme-color-randomizer" is now active!');
 
 	function getRandomColorHex(): string {
 		const random = Math.floor(Math.random() * 16777215).toString(16);
@@ -112,7 +101,7 @@ export function activate(context: vscode.ExtensionContext) {
 		return settingsFilePath;
 	}
 
-	async function generateTheme(text:boolean,background:boolean,deleteText:boolean,deleteBackground:boolean){
+	async function generateColor(text:boolean,background:boolean,deleteText:boolean,deleteBackground:boolean){
 		const settingsFilePath:string|null = await makeSureSettingsExists();
 		
 		if(settingsFilePath===null){
@@ -148,30 +137,30 @@ export function activate(context: vscode.ExtensionContext) {
 		await vscode.workspace.fs.writeFile(vscode.Uri.file(settingsFilePath), data);
 	}
 
-	let newDisposable = vscode.commands.registerCommand('theme-generator.randomizeAllColors', async () => {
-		generateTheme(true,true,false,false);
+	let newDisposable = vscode.commands.registerCommand('theme-color-randomizer.RandomiseAllColors', async () => {
+		generateColor(true,true,false,false);
 	});
 	context.subscriptions.push(newDisposable);
 
-	let newDisposable2 = vscode.commands.registerCommand('theme-generator.randomizeText', async () => {
-		generateTheme(true,false,false,false);
+	let newDisposable2 = vscode.commands.registerCommand('theme-color-randomizer.RandomiseText', async () => {
+		generateColor(true,false,false,false);
 	});
 	context.subscriptions.push(newDisposable2);
-	let newDisposable3 = vscode.commands.registerCommand('theme-generator.randomizeBackground', async () => {
-		generateTheme(false,true,false,false);
+	let newDisposable3 = vscode.commands.registerCommand('theme-color-randomizer.RandomiseBackground', async () => {
+		generateColor(false,true,false,false);
 	});
 	context.subscriptions.push(newDisposable3);
-	let newDisposable4 = vscode.commands.registerCommand('theme-generator.resetAllColors', async () => {
-		generateTheme(false,false,true,true);
+	let newDisposable4 = vscode.commands.registerCommand('theme-color-randomizer.resetAllColors', async () => {
+		generateColor(false,false,true,true);
 
 	});
 	context.subscriptions.push(newDisposable4);
-	let newDisposable5 = vscode.commands.registerCommand('theme-generator.resetText', async () => {
-		generateTheme(false,false,true,false);
+	let newDisposable5 = vscode.commands.registerCommand('theme-color-randomizer.resetText', async () => {
+		generateColor(false,false,true,false);
 	});
 	context.subscriptions.push(newDisposable5);
-	let newDisposable6 = vscode.commands.registerCommand('theme-generator.resetBackground', async () => {
-		generateTheme(false,false,false,true);
+	let newDisposable6 = vscode.commands.registerCommand('theme-color-randomizer.resetBackground', async () => {
+		generateColor(false,false,false,true);
 	});
 	context.subscriptions.push(newDisposable6);
 

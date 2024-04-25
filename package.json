@@ -1,8 +1,9 @@
 {
-  "name": "theme-generator",
-  "displayName": "Theme randomizer",
-  "description": "Create beutyfull and unique themes for each of your projects",
-  "version": "0.0.1",
+  "name": "theme-color-randomizer",
+  "displayName": "Theme Color Randomizer",
+  "publisher": "Bair",
+  "description": "Randomises all colors on your workspace!",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -13,29 +14,30 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
+
       {
-        "command": "theme-generator.randomizeAllColors",
-        "title": "Theme randomizer: Randomize all colors"
+        "command": "theme-color-randomizer.RandomiseAllColors",
+        "title": "Theme Color Randomizer: Randomise all colors"
       },
       {
-        "command": "theme-generator.randomizeText",
-        "title": "Theme randomizer: Randomize text color"
+        "command": "theme-color-randomizer.RandomiseText",
+        "title": "Theme Color Randomizer: Randomise text color"
       },
       {
-        "command": "theme-generator.randomizeBackground",
-        "title": "Theme randomizer: Randomize background color"
+        "command": "theme-color-randomizer.RandomiseBackground",
+        "title": "Theme Color Randomizer: Randomise background color"
       },
       {
-        "command": "theme-generator.resetAllColors",
-        "title": "Theme randomizer: Reset all colors"
+        "command": "theme-color-randomizer.resetAllColors",
+        "title": "Theme Color Randomizer: Reset all colors"
       },
       {
-        "command": "theme-generator.resetText",
-        "title": "Theme randomizer: Reset text color"
+        "command": "theme-color-randomizer.resetText",
+        "title": "Theme Color Randomizer: Reset text color"
       },
       {
-        "command": "theme-generator.resetBackground",
-        "title": "Theme randomizer: Reset background color"
+        "command": "theme-color-randomizer.resetBackground",
+        "title": "Theme Color Randomizer: Reset background color"
       }
     ]
   },

@@ -1,31 +1,36 @@
-# theme-generator README
+# theme-color-randomizer README
 
-This is the README for your extension "theme-generator". After writing up a brief description, we recommend including the following sections.
+Randomises all colors in your workspace!
+This extention doesn't mess with your user settings and only messes with your workspace settings. (That means all collaborators will see the changes if the .vscode is synced)
 
 ## Features
+Reset text/background color
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
+\!\[Randomise Text:\]\(images/Text.png\)
+\!\[Randomise Background:\]\(images/Background.png\)
+\!\[Randomise Everything:\]\(images/Everything.png\)
+\!\[Reset to remove the Chaos:\]\(images/Reset.png\)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
+
+## Usage:
+Ctrl+Shift+P => Theme Color Randomizer: Command name
+>Theme Color Randomizer: Randomise all colors
+>Theme Color Randomizer: Randomise text color
+>Theme Color Randomizer: Randomise background color
+>Theme Color Randomizer: Reset all colors
+>Theme Color Randomizer: Reset text color
+>Theme Color Randomizer: Reset background color
+
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Have a workspace oppened.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+NONE
 
 ## Known Issues
 
@@ -37,15 +42,9 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
+Initial release
 
-### 1.0.1
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
 
 ---
 
