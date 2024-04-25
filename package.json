@@ -1,0 +1,64 @@
+{
+  "name": "theme-generator",
+  "displayName": "Theme randomizer",
+  "description": "Create beutyfull and unique themes for each of your projects",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "theme-generator.randomizeAllColors",
+        "title": "Theme randomizer: Randomize all colors"
+      },
+      {
+        "command": "theme-generator.randomizeText",
+        "title": "Theme randomizer: Randomize text color"
+      },
+      {
+        "command": "theme-generator.randomizeBackground",
+        "title": "Theme randomizer: Randomize background color"
+      },
+      {
+        "command": "theme-generator.resetAllColors",
+        "title": "Theme randomizer: Reset all colors"
+      },
+      {
+        "command": "theme-generator.resetText",
+        "title": "Theme randomizer: Reset text color"
+      },
+      {
+        "command": "theme-generator.resetBackground",
+        "title": "Theme randomizer: Reset background color"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.88.0",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "@vscode/test-cli": "^0.0.8",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "comment-json": "^4.2.3"
+  }
+}

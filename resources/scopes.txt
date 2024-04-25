@@ -1,0 +1,292 @@
+
+comment
+comment.block.documentation
+punctuation.definition.comment
+comment.block.documentation punctuation
+keyword.operator.assignment.jsdoc
+comment.block.documentation variable
+comment.block.documentation storage
+comment.block.documentation keyword
+comment.block.documentation support
+comment.block.documentation markup
+comment.block.documentation markup.inline.raw.string.markdown
+meta.other.type.phpdoc.php keyword.other.type.php
+meta.other.type.phpdoc.php support.other.namespace.php
+meta.other.type.phpdoc.php punctuation.separator.inheritance.php
+meta.other.type.phpdoc.php support.class
+keyword.other.phpdoc.php
+log.date
+meta.other.type.phpdoc.php support.class
+comment.block.documentation storage.type
+comment.block.documentation punctuation.definition.block.tag
+comment.block.documentation entity.name.type.instance
+variable.other.constant
+punctuation.definition.constant
+constant.language
+constant.numeric
+support.constant
+constant.other.caps
+string
+constant.other.symbol
+constant.other.key
+meta.attribute-selector
+string constant.character
+constant.other.color
+constant.other.color.rgb-value.hex punctuation.definition.constant
+invalid
+invalid.illegalinvalid.deprecatedstorage.type
+meta.var.expr storage.type
+storage.modifier
+punctuation.definition.template-expression
+punctuation.section.embedded
+meta.embedded.line.tag.smarty
+support.constant.handlebars
+punctuation.section.tag.twig
+keyword.control.smarty
+keyword.control.twig
+support.constant.handlebars keyword.control
+keyword.operator.comparison.twig
+keyword.blade
+entity.name.function.blade
+keyword.operator.spread
+keyword.operator.rest
+keyword.operator
+keyword.control.as
+keyword.other
+keyword.operator.bitwise.shift
+punctuation
+expression.embbeded.vue punctuation.definition.tag
+text.html.twig meta.tag.inline.any.html
+meta.tag.template.value.twig meta.function.arguments.twig
+meta.directive.vue punctuation.separator.key-value.html
+punctuation.definition.constant.markdown
+punctuation.definition.string
+punctuation.support.type.property-name
+text.html.vue-html meta.tag
+meta.attribute.directive
+punctuation.definition.keyword
+punctuation.terminator.rule
+punctuation.definition.entity
+punctuation.separator.inheritance.php
+keyword.other.template
+keyword.other.substitution
+entity.name.operator
+meta.property-list punctuation.separator.key-value
+meta.at-rule.mixin punctuation.separator.key-value
+meta.at-rule.function variable.parameter.url
+keyword.control.module.js
+keyword.control.import
+keyword.control.export
+keyword.control.from
+keyword.control.default
+meta.import keyword.other
+keyword
+keyword.control
+keyword.other.importantkeyword.other.DML
+keyword.operator.logical
+storage.type.function
+keyword.operator.bitwise
+keyword.operator.ternary
+keyword.operator.comparison
+keyword.operator.relational
+keyword.operator.or.regexpentity.name.tag
+entity.name.tag support.class.component
+meta.tag.custom entity.name.tag
+meta.tag.other.unrecognized.html.derivative entity.name.tag
+meta.tagpunctuation.definition.tag
+constant.other.php
+variable.other.global.safer
+variable.other.global.safer punctuation.definition.variable
+variable.other.global
+variable.other.global punctuation.definition.variable
+constant.other
+variable
+support.variable
+string constant.other.placeholder
+variable.parameter.handlebars
+variable.other.object
+meta.fstring
+meta.function-call meta.function-call.argumentsmeta.array.literal
+variable
+meta.object-literal.key
+entity.name.type.hcl
+string.alias.graphql
+string.unquoted.graphql
+string.unquoted.alias.graphql
+meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
+meta.field.declaration.ts variable.object.property
+meta.block entity.name.label
+variable.other.property
+support.variable.property
+support.variable.property.dom
+meta.function-call variable.other.object.propertyvariable.other.object.propertymeta.objectliteral
+meta.object.member
+meta.objectliteral
+meta.object.member
+meta.objectliteral
+meta.object.member
+meta.object-literal.keysource.cpp
+meta.block
+variable.othersupport.other.variable
+meta.class-method.js entity.name.function.js
+entity.name.method.js
+variable.function.constructor
+keyword.other.special-method
+storage.type.cs
+entity.name.function
+variable.other.enummember
+meta.function-call
+meta.function-call entity.name.function
+variable.function
+meta.definition.method entity.name.function
+meta.object-literal entity.name.function
+variable.parameter.function.language.special
+variable.parameter
+meta.function.parameters punctuation.definition.variable
+meta.function.parameter variable
+keyword.other.type.php
+storage.type.php
+constant.character
+constant.escape
+keyword.other.unit
+meta.definition.variable variable.other.constant
+meta.definition.variable variable.other.readwrite
+variable.declaration.hcl variable.other.readwrite.hcl
+meta.mapping.key.hcl variable.other.readwrite.hcl
+variable.other.declarationentity.other.inherited-class
+support.class
+support.type
+variable.other.readwrite.alias
+support.orther.namespace.use.php
+meta.use.php
+support.other.namespace.php
+support.type.sys-types
+support.variable.dom
+support.constant.math
+support.type.object.module
+support.constant.json
+entity.name.namespace
+meta.import.qualifier
+variable.other.constant.objectentity.namesupport.function
+source.css support.type.property-name
+source.sass support.type.property-name
+source.scss support.type.property-name
+source.less support.type.property-name
+source.stylus support.type.property-name
+source.postcss support.type.property-name
+support.type.property-name.css
+support.type.vendored.property-name
+support.type.map.key
+support.constant.font-name
+meta.definition.variable
+entity.other.attribute-name.class
+meta.at-rule.mixin.scss entity.name.function.scssentity.other.attribute-name.identity.name.tag.css
+entity.other.attribute-name.pseudo-class punctuation.definition.entity
+entity.other.attribute-name.pseudo-element punctuation.definition.entity
+entity.other.attribute-name.class punctuation.definition.entity
+entity.name.tag.referencemeta.property-list
+meta.property-list meta.at-rule.if
+meta.at-rule.return variable.parameter.url
+meta.property-list meta.at-rule.else
+entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.cssmeta.property-list
+meta.property-list
+meta.at-rule.mixin keyword.control.at-rule.mixin
+meta.at-rule.include entity.name.function.scss
+meta.at-rule.include keyword.control.at-rule.include
+keyword.control.at-rule.include punctuation.definition.keyword
+keyword.control.at-rule.mixin punctuation.definition.keyword
+meta.at-rule.include keyword.control.at-rule.include
+keyword.control.at-rule.extend punctuation.definition.keyword
+meta.at-rule.extend keyword.control.at-rule.extend
+entity.other.attribute-name.placeholder.css punctuation.definition.entity.css
+meta.at-rule.media keyword.control.at-rule.media
+meta.at-rule.mixin keyword.control.at-rule.mixin
+meta.at-rule.function keyword.control.at-rule.function
+keyword.control punctuation.definition.keywordmeta.property-list
+meta.at-rule.includesupport.constant.property-value
+entity.name.module.js
+variable.import.parameter.js
+variable.other.class.jsvariable.languagevariable.other
+punctuation.definition.variable
+source.js constant.other.object.key.js string.unquoted.label.js
+variable.language.this punctuation.definition.variable
+keyword.other.this
+entity.other.attribute-name
+text.html.basic entity.other.attribute-name.html
+text.html.basic entity.other.attribute-nametext.html
+constant.character.entity
+entity.other.attribute-name.id.html
+meta.directive.vue entity.other.attribute-name.htmlsource.sass
+keyword.control
+entity.other.attribute-name.pseudo-class
+entity.other.attribute-name.pseudo-element
+entity.other.attribute-name.placeholder
+meta.property-list meta.property-valuemarkup.insertedmarkup.deletedmarkup.changedstring.regexppunctuation.definition.group
+constant.other.character-class.regexp
+constant.other.character-class.set.regexp
+punctuation.definition.character-class.regexpkeyword.operator.quantifier.regexpconstant.character.escape.backslashconstant.character.escape
+tag.decorator.js entity.name.tag.js
+tag.decorator.js punctuation.definition.tag.jskeyword.other.unit
+source.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.jsonpunctuation.definition.list_item.markdown
+meta.block
+meta.brace
+punctuation.definition.block
+punctuation.definition.use
+punctuation.definition.class
+punctuation.definition.begin.bracket
+punctuation.definition.end.bracket
+punctuation.definition.switch-expression.begin.bracket
+punctuation.definition.switch-expression.end.bracket
+punctuation.definition.section.switch-block.begin.bracket
+punctuation.definition.section.switch-block.end.bracket
+punctuation.definition.group.shell
+punctuation.definition.parameters
+punctuation.definition.arguments
+punctuation.definition.dictionary
+punctuation.definition.array
+punctuation.section
+meta.embedded.block
+meta.tag JSXNested
+meta.jsx.children
+text.html
+text.logtext.html.markdown
+markup.inline.raw.markdowntext.html.markdown
+markup.inline.raw.markdown
+punctuation.definition.raw.markdown
+heading.1.markdown entity.name
+heading.1.markdown punctuation.definition.heading.markdown
+heading.2.markdown entity.name
+heading.2.markdown punctuation.definition.heading.markdown
+heading.3.markdown entity.name
+heading.3.markdown punctuation.definition.heading.markdown
+heading.4.markdown entity.name
+heading.4.markdown punctuation.definition.heading.markdown
+heading.5.markdown entity.name
+heading.5.markdown punctuation.definition.heading.markdown
+heading.6.markdown entity.name
+heading.6.markdown punctuation.definition.heading.markdown
+markup.italic
+markup.italic punctuation
+markup.bold
+markup.bold punctuation
+markup.bold markup.italic
+markup.bold markup.italic punctuation
+markup.underline
+markup.underline punctuationmarkup.quote
+punctuation.definition.blockquote.markdownmarkup.quote
+string.other.link
+markup.underline.link
+constant.other.reference.link.markdown
+string.other.link.description.title.markdown
+markup.fenced_code.block.markdown
+markup.inline.raw.string.markdown
+variable.language.fenced.markdownmeta.separatormarkup.tabletoken.info-tokentoken.warn-tokentoken.error-tokentoken.debug-tokenentity.tag.apacheconf
+meta.preprocessorsource.env
